@@ -20,14 +20,23 @@ The program plays a defined visual input while simultaneously collecting facial 
 ## Project Structure
 
 facial_capture_project/
+
 │
+
 ├── videos/                # Input videos used for experiments
+
 │   └── example_video.mp4
+
 │
+
 ├── outputs/               # Automatically generated experiment results
+
 │   └── example_video_run1/
+
 │       └── landmarks.csv
+
 │
+
 └── capture_script.py      # Main experiment script
 
 ---
